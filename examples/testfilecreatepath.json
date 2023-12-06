@@ -1,0 +1,8 @@
+[
+  {
+    "activity": "FileCreate",
+    "file": "/tmp/in/nonexistant/folder/testing123.txt",
+    "mode": "a"
+  }
+]
+

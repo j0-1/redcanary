@@ -1,0 +1,8 @@
+[
+  {
+    "activity": "FileCreate",
+    "file": "/tmp/testing123.txt",
+    "mode": "a"
+  }
+]
+

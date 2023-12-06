@@ -1,0 +1,29 @@
+[
+  {
+    "activity": "ProcessStart",
+    "file": "/bin/cat",
+    "args": "./main.rb"
+  },
+  {
+    "activity": "FileCreate",
+    "file": "/tmp/testing123.txt",
+    "mode": "a"
+  },
+  {
+    "activity": "FileModify",
+    "file": "/tmp/testing123.txt",
+    "append": "added contents"
+  },
+  {
+    "activity": "FileDelete",
+    "file": "/tmp/testing123.txt"
+  },
+  {
+    "activity": "NetworkConnect",
+    "ip": "localhost",
+    "port": 8088,
+    "protocol": "tcp",
+    "data": "hello"
+  }
+]
+

@@ -1,0 +1,10 @@
+[
+  {
+    "activity": "NetworkConnect",
+    "ip": "localhost",
+    "port": 8088,
+    "protocol": "tcp",
+    "data": "hello"
+  }
+]
+

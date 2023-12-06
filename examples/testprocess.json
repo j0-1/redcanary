@@ -1,0 +1,8 @@
+[
+  {
+    "activity": "ProcessStart",
+    "file": "/bin/cat",
+    "args": "./main.rb"
+  }
+]
+

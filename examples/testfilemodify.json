@@ -1,0 +1,8 @@
+[
+  {
+    "activity": "FileModify",
+    "file": "/tmp/testing123.txt",
+    "append": "added contents"
+  }
+]
+

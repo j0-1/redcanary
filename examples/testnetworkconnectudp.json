@@ -1,0 +1,10 @@
+[
+  {
+    "activity": "NetworkConnect",
+    "ip": "localhost",
+    "port": 8089,
+    "protocol": "udp",
+    "data": "hello udp"
+  }
+]
+
