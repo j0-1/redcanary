@@ -2,7 +2,6 @@ require 'socket'
 
 class NetworkGenerator
   def connect(ip, port, protocol, data)
-    #STDERR.puts "network conntect to '#{ip}' port '#{port}' with protocol '#{protocol}' sending data '#{data}'"
     tstart = Time.now.utc
     if protocol == "tcp"
       send_tcp_data(ip, port, data)

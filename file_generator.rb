@@ -3,7 +3,6 @@ require 'pathname'
 
 class FileGenerator
   def create(file, mode)
-    #STDERR.puts "creating file '#{file}' with mode '#{mode}'"
     dir = Pathname.new(file).dirname
     FileUtils.mkdir_p(dir) unless Dir.exist?(dir)
 
@@ -14,7 +13,6 @@ class FileGenerator
   end
 
   def modify(file, data)
-    #STDERR.puts "modifying file '#{file}' with data '#{data}'"
     tstart = Time.now.utc
     File.open(file, "a") do |f|
       f.write(data)
@@ -23,7 +21,6 @@ class FileGenerator
   end
 
   def delete(file)
-    #STDERR.puts "deleting file '#{file}'"
     tstart = Time.now.utc
     File.delete(file)
     log_data(tstart, file, "delete")

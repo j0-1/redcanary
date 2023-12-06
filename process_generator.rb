@@ -1,6 +1,5 @@
 class ProcessGenerator
   def start(exe, args)
-    #STDERR.puts "process generator: start '#{exe}' with args '#{args}'"
     command = "#{exe} #{args}" # using this form for spawn to go through shell
     pid = Process.spawn(command, [:out, :err] => "/dev/null") # discarding stdin/stdout
 
